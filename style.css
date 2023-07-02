@@ -1,0 +1,109 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(0, 0%, 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  /* border: 2px solid red; */
+}
+body {
+  /* margin: auto; */
+  background-color: hsl(222, 26%, 31%);
+}
+.main {
+  position: relative;
+}
+.container {
+  margin: 50px auto 50px auto;
+  background-color: hsl(222, 26%, 31%);
+  color: white;
+
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  width: 33%;
+  /* margin: 0 auto; */
+}
+.startBox {
+  background-color: hsl(222, 26%, 31%);
+  display: flex;
+  align-items: center;
+
+  /* justify-content: center; */
+}
+.title {
+  width: 72%;
+  text-align: start;
+}
+.theme {
+  width: 16%;
+  text-align: start;
+}
+.modeButton {
+  text-align: end;
+}
+.text-view {
+  background-color: hsl(223, 31%, 20%);
+  height: 6.5rem;
+  border-radius: 10px;
+  display: grid;
+  align-items: center;
+}
+.input-box {
+  background-color: hsl(223, 31%, 20%);
+  color: white;
+  height: 50%;
+  width: 91%;
+  border-radius: 10px;
+  border: 10px solid hsl(223, 31%, 20%);
+  text-align: end;
+  font-family: "League Spartan";
+  font-weight: 700;
+  font-size: 43px;
+}
+.button-container {
+  background-color: hsl(223, 31%, 20%);
+  color: hsl(225, 21%, 49%);
+  height: 18rem;
+  width: 90%;
+  margin: 20px auto 20px auto;
+  padding: 22px 22px 0px 22px;
+  border-radius: 10px 10px 0px 0px;
+  display: grid;
+  grid-template-columns: 21% 21% 21% 21%; /* define this property in Percentage Because The Web Page Will be Responsive It will remain Inside The Container Only It will not Go outside of the Container */
+  grid-gap: 20px;
+  justify-content: center;
+}
+.button-container .btn {
+  background-color: hsl(30, 25%, 89%);
+  border-radius: 10px;
+  box-shadow: 0px 3.5px hsl(28, 16%, 65%);
+  border: 1px solid hsl(28, 16%, 65%);
+}
+.main-btn {
+  background-color: hsl(223, 31%, 20%);
+  color: hsl(225, 21%, 49%);
+  height: 3rem;
+  width: 90%;
+  margin: -20px auto 20px auto;
+  padding: 22px 22px 22px 22px;
+  border-radius: 0px 0px 10px 10px;
+  display: grid;
+  grid-template-columns: 47% 47%;
+  grid-gap: 20px;
+  justify-content: center;
+}
+.btn-equals {
+  background-color: hsl(6, 63%, 50%);
+  color: white;
+}
+:is(.btn-rst, .btn-del) {
+  background-color: hsl(225, 21%, 49%);
+  color: white;
+}
